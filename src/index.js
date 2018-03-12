@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 import React from 'react'
 import PropTypes from 'prop-types'
 
 
+=======
+>>>>>>> dbcacfaa59f9a1375fccea257cc2b91eac60c59e
 class Order extends React.Component {
   render() {
     return (
@@ -15,6 +18,7 @@ class Order extends React.Component {
       </div> 
       )
   }
+<<<<<<< HEAD
 }
 
 Order.defaultProps = {
@@ -30,4 +34,6 @@ Order.propTypes = {
     customerName: PropTypes.string.isRequired,
     orderedAt: PropTypes.number.isRequired
   })
+=======
+>>>>>>> dbcacfaa59f9a1375fccea257cc2b91eac60c59e
 }
